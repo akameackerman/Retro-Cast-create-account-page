@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RetroCast – Create Account</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="card">
+    
+    <!--  RetroCast logo -->
+    <img src="images/retrocast-logo.png" class="brand-logo" alt="RetroCast Logo">
+
+    <div class="card-inner">
+
+      <h1>Create your account</h1>
+      <p class="subtitle">
+        Save favorite shows, track where to watch them, and enjoy retro vibes ✨
+      </p>
+
+      <form class="form">
+        <div>
+          <div class="field-label">
+            <label for="username">Username</label>
+            <span class="helper">This is how we’ll show your name</span>
+          </div>
+          <input id="username" class="input" type="text" placeholder="retroFan1999">
+        </div>
+
+        <div>
+          <div class="field-label">
+            <label for="email">Email</label>
+          </div>
+          <input id="email" class="input" type="email" placeholder="you@example.com">
+        </div>
+
+        <div>
+          <div class="field-label">
+            <label for="password">Password</label>
+            <span class="helper">At least 8 characters </span>
+          </div>
+          <input id="password" class="input" type="password" placeholder="Create a password">
+        </div>
+
+        <div class="inline-fields">
+          <div>
+            <div class="field-label">
+              <label for="role">Account type</label>
+            </div>
+            <select id="role" class="select">
+              <option value="2">Primary user (viewer)</option>
+              <option value="3">Business user (analytics)</option>
+            </select>
+          </div>
+
+          <div>
+            <div class="field-label">
+              <label for="businessName">Business (optional)</label>
+            </div>
+            <input id="businessName" class="input" type="text" placeholder="KidShows Analytics LLC">
+          </div>
+        </div>
+
+        <div>
+          <div class="pill">
+            ⭐ Benefits included
+          </div>
+          <div class="chip-row">
+            <span class="chip">Favorites</span>
+            <span class="chip">Where-to-watch</span>
+            <span class="chip">Analytics</span>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary">
+           Create my account
+        </button>
+      </form>
+
+      <p class="footer-text">
+        Already have an account?
+        <a href="login.html">Log in here</a>
+      </p>
+
+    </div>
+  </div>
+
+  <!-- JS file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
